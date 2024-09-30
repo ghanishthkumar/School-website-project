@@ -1,0 +1,209 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Navbar Styles */
+nav .container .fa {
+    color: #f2f4f5;
+    font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+/* Banner Styles */
+.background {
+    background-image: url(assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* For positioning */
+    height: 400px; /* Set a fixed height for consistency */
+}
+
+.color_banner {
+    background-color: rgba(84, 106, 62, 0.8); /* Slightly reduced opacity for a softer look */
+    color: #ffffff;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100%; /* Full height of the banner */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding around the content */
+}
+
+#banner_content h3 {
+    font-size: 36px; /* Moderate size */
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 10px; /* Space below heading */
+}
+
+#banner_content h2 {
+    font-size: 48px; /* Slightly larger for emphasis */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+#banner_content p {
+    font-size: 18px; /* Standard size */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #88a234; /* Primary color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px;
+    font-size: 16px; /* Standard size */
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007ac1; /* Change on hover */
+}
+
+
+/* Section Heading Styles */
+#heading {
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+    text-align: center;
+    margin: 30px 0;
+    border-bottom: 2px solid #88a234;
+    padding-bottom: 10px;
+}
+
+/* Text Styles */
+.text-center {
+    color: #606060;
+    line-height: 1.6;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #88a234;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007ac1;
+    transform: translateY(-2px);
+}
+
+/* Shining Star Section */
+#star {
+    font-size: 38px;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa {
+    font-size: 50px;
+    color: rgba(48, 48, 48, 0.68);
+}
+
+.img {
+    width: 350px;
+    height: auto;
+}
+
+.s-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Mission Section */
+#banner_p {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+#banner_h {
+    font-size: 38px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+#footer_h {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+}
+
+#footer_p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+hr {
+    border-bottom: 2px solid #ffffff;
+}
+
+#information {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#d_h {
+    font-size: 14px;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#nav .fa {
+    font-size: 25px;
+    padding: 0 10px;
+    color: #88a234;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #banner_content h3,
+    #banner_content h2 {
+        font-size: 36px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .s-flex {
+        flex-direction: column;
+    }
+
+    .container-fluid {
+        padding: 10px;
+    }
+}
